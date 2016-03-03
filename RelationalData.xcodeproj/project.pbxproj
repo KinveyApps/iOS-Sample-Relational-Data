@@ -30,7 +30,7 @@
 		57A3B93C1C88B6A5009E4AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57A3B9431C88B6CF009E4AF5 /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KinveyKit.framework; sourceTree = "<group>"; };
 		57A3B9451C88B6E7009E4AF5 /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
-		57A3B9491C88B73C009E4AF5 /* RelationalData-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RelationalData-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		57A3B9491C88B73C009E4AF5 /* RelationalData-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RelationalData-Bridging-Header.h"; sourceTree = "<group>"; };
 		57A3B94D1C88B7DA009E4AF5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		57A3B94F1C88B7EB009E4AF5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		57A3B9511C88B80F009E4AF5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -295,7 +295,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kinvey.RelationalData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RelationalData-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RelationalData/RelationalData-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -314,7 +314,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kinvey.RelationalData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RelationalData-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RelationalData/RelationalData-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -337,6 +337,7 @@
 				57A3B9411C88B6A5009E4AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
